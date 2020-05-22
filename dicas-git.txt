@@ -1,0 +1,139 @@
+Comando Básicos - Git
+
+
+
+git init:
+
+Iniciar repositório local
+
+git clone:
+
+Clonar um repositório remóto
+
+
+
+git add:
+
+Adicionar as alterações de arquivos ao index do repositório git local (procedimento temporário)
+
+git add <<nome_aqv.extencao>> - Para adicionar alterações de um arquivo apenas
+
+git add . ou git add -A - Para adicionar todas as alterações do projeto  
+
+
+
+git reset head <<Nome do arquivo>>:
+
+Retirar um arquivo adicionado para commitar(pós git add)
+
+
+
+git commit - m 'Mensagem do commit':
+
+Adicionar alterações que estão no index ao head do repositório local guardando essas informações de forma definitiva.
+
+
+
+git commit --amend:
+
+Abre editor para editar a mensagem do último commit
+
+
+
+git push:
+
+Enviar alterações que foram realizadas no repositório local para o remoto
+
+
+
+git push origin <<Noma da banch>>:
+
+Enviar uma branch criada para o repositório remoto
+
+
+
+git pull:
+
+Trazer alterações do repositório remoto para o local
+
+
+
+git diff <<Nome do arquivo>>
+
+Ver as modificações feitas no arquivo
+
+
+
+git checkout -- <<Nome do arquivo>>:
+
+Resetar as alterações de um arquivo
+
+
+
+git status:
+
+Retorna estado atual do repositório local, apontando alterações como arquivos criados, modificados e excluidos. Além de comparar se a versão local está igual a versão remota.
+
+
+
+git log:
+
+Retorna o histórico de commit's
+
+
+
+git branch: 
+
+Verifica as ramificações existentes
+
+
+
+git branch <<Nome da branch>>:
+
+Cria uma nova branch
+
+
+
+git checkout <<Nome da branch>>:
+
+Seleciona a branch desejada
+
+
+
+git branch -d <<Nome da branch>>:
+
+Deleta a branch desejada    
+
+
+
+git merge <<Nome da branch>>:
+
+Vai integrar as alteração da branch informada a master
+
+
+
+
+
+----------------------------------EXTRAS-------------------------------------
+
+git remote -v:
+
+mostrar uma listas com os repositórios remotos
+
+
+
+git rebase <<Nome do arquivo>>:
+
+Juntar arquivos de duas branches sem gerar um novo evento
+
+
+
+git remote:
+
+Ver um repositório remoto
+
+
+
+git log --stat:
+
+Consultar os commits, e suas estatísticas abreviadas, criados no Github
